@@ -16,6 +16,7 @@ STEP:9 In the Design Object List Window, enter the pin location for each pin in 
 STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here.
 STEP:11 On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 # PROGRAM
+```
 module decoder_8(a,b,c,y); 
 input a,b,c;
 output [7:0]y; 
@@ -28,6 +29,7 @@ and g6(y[5], (a), (~b), (c));
 and g7(y[6], (a), (b), (~c));
 and g8 (y[7], (a), (b), (c));
 endmodule
+```
 # Truth Table and Circuit Diagram
 ![image](https://github.com/RESMIRNAIR/DECODER2TO4/assets/154305926/e565d523-f8b2-4e01-8888-0eed4d07ec24)
 # OUTPUT
